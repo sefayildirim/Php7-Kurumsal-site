@@ -1,0 +1,10 @@
+ErrorDocument 404 /404.html
+Options +FollowSymlinks 
+RewriteEngine On
+
+RewriteRule ^index.*$ index.php [NC] 
+RewriteRule ^hakkimizda.* hakkimizda.php [NC] 
+RewriteRule ^dernegimiz.* dernegimiz.php [NC] 
+RewriteRule ^galeri.* galeri.php [NC] 
+RewriteRule ^video.* video.php [NC] 
+RewriteRule ^iletisim.* iletisim.php [NC]
